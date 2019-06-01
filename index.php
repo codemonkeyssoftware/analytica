@@ -50,7 +50,6 @@ Zend_Loader::loadClass('Zend_Auth_Adapter_DbTable');
  */
 Zend_Loader::loadClass('Analytica_Access');
 Zend_Loader::loadClass('Analytica_Apiable');
-
 Zend_Loader::loadClass('Analytica_Log');
 Zend_Loader::loadClass('Analytica_Config');
 Zend_Loader::loadClass('Analytica_PublicApi');

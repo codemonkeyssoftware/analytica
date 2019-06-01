@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="32a0dc26-f083-481b-a46e-f3d533b905c6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/config/config.ini" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/misc/generateDoc.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/misc/phpdoc-config.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/Access.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/Access.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/Apiable.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/Apiable.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/SitesManager.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/SitesManager.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/UsersManager.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/UsersManager.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -55,7 +48,7 @@
         <entry file="file://$PROJECT_DIR$/modules/Access.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="393">
-              <caret line="124" column="48" lean-forward="true" selection-start-line="124" selection-start-column="48" selection-end-line="124" selection-end-column="48" />
+              <caret line="124" column="48" selection-start-line="124" selection-start-column="48" selection-end-line="124" selection-end-column="48" />
             </state>
           </provider>
         </entry>
@@ -73,16 +66,28 @@
         <entry file="file://$PROJECT_DIR$/modules/SitesManager.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="422">
-              <caret line="311" lean-forward="true" selection-start-line="311" selection-end-line="311" />
+              <caret line="311" selection-start-line="311" selection-end-line="311" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/modules/UsersManager.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="279">
+              <caret line="168" column="29" selection-start-line="168" selection-start-column="29" selection-end-line="168" selection-end-column="29" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/modules/UsersManager.php">
+        <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="279">
-              <caret line="168" column="29" selection-start-line="168" selection-start-column="29" selection-end-line="168" selection-end-column="29" />
+            <state relative-caret-position="195">
+              <caret line="51" column="44" selection-start-line="51" selection-start-column="44" selection-end-line="51" selection-end-column="44" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -103,7 +108,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/modules/Config.php" />
         <option value="$PROJECT_DIR$/modules/ErrorHandler.php" />
         <option value="$PROJECT_DIR$/modules/Log.php" />
@@ -123,6 +127,7 @@
         <option value="$PROJECT_DIR$/modules/Apiable.php" />
         <option value="$PROJECT_DIR$/modules/SitesManager.php" />
         <option value="$PROJECT_DIR$/modules/UsersManager.php" />
+        <option value="$PROJECT_DIR$/index.php" />
       </list>
     </option>
   </component>
@@ -145,16 +150,6 @@
             <path>
               <item name="analytica" type="b2602c69:ProjectViewProjectNode" />
               <item name="analytica" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="analytica" type="b2602c69:ProjectViewProjectNode" />
-              <item name="analytica" type="462c0819:PsiDirectoryNode" />
-              <item name="misc" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="analytica" type="b2602c69:ProjectViewProjectNode" />
-              <item name="analytica" type="462c0819:PsiDirectoryNode" />
-              <item name="modules" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -195,12 +190,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1559357505609</updated>
-      <workItem from="1559357508063" duration="4016000" />
+      <workItem from="1559357508063" duration="4119000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4016000" />
+    <option name="totallyTimeSpent" value="4119000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="459" width="1680" height="591" extended-state="0" />
@@ -231,11 +226,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/tests/simpletest/test/xml_test.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-58" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tests/simpletest/authentication.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-58" />
@@ -502,7 +492,7 @@
     <entry file="file://$PROJECT_DIR$/modules/Access.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="393">
-          <caret line="124" column="48" lean-forward="true" selection-start-line="124" selection-start-column="48" selection-end-line="124" selection-end-column="48" />
+          <caret line="124" column="48" selection-start-line="124" selection-start-column="48" selection-end-line="124" selection-end-column="48" />
         </state>
       </provider>
     </entry>
@@ -516,7 +506,7 @@
     <entry file="file://$PROJECT_DIR$/modules/SitesManager.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="422">
-          <caret line="311" lean-forward="true" selection-start-line="311" selection-end-line="311" />
+          <caret line="311" selection-start-line="311" selection-end-line="311" />
         </state>
       </provider>
     </entry>
@@ -524,6 +514,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="279">
           <caret line="168" column="29" selection-start-line="168" selection-start-column="29" selection-end-line="168" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="51" column="44" selection-start-line="51" selection-start-column="44" selection-end-line="51" selection-end-column="44" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
