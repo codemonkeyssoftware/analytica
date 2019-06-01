@@ -31,7 +31,11 @@ class Analytica_UsersManager extends Analytica_APIable
 		}
 		return self::$instance;
 	}
-	
+
+    /**
+     * Returns the list of all the users login.
+     * @return array the list of all the login
+     */
 	static public function getUsers()
 	{
 		$db = Zend_Registry::get('db');
@@ -39,7 +43,22 @@ class Analytica_UsersManager extends Analytica_APIable
 		$users = $db->fetchCol("SELECT login FROM ".Analytica::prefixTable("user"));
 		return $users;
 	}
-	
+
+    /**
+     * Add a user in the database.
+     * A user is defined by
+     * - a login that has to be unique and valid
+     * - a password that has to be valid
+     * - an alias
+     * - an email that has to be in a correct format
+     *
+     * @see userExists()
+     * @see isValidLoginString()
+     * @see isValidPasswordString()
+     * @see isValidEmailString()
+     * @exception in case of an invalid parameter
+     * @return bool true on success
+     */
 	static public function addUser( $userLogin, $password, $alias, $email )
 	{
 		if(self::userExists($userLogin))
@@ -69,10 +88,19 @@ class Analytica_UsersManager extends Analytica_APIable
 									'token_auth' => self::getTokenAuth($userLogin,$password)
 									)
 		);
-		
-		
+		return true;
+
 	}
-	
+
+    /**
+     * Delete a user given its login
+     *
+     * @param string the user login.
+     *
+     * @exception if the user doesn't exist
+     *
+     * @return bool true on success
+     */
 	static public function deleteUser( $userLogin )
 	{
 		if(!self::userExists($userLogin))
@@ -91,7 +119,7 @@ class Analytica_UsersManager extends Analytica_APIable
 		return in_array($userLogin, $aLogins);
 	}
 	
-	// role = anonymous / view / admin / superuser
+	// role = noaccess / view / admin / superuser
 	static public function setUserRole( $role, $userLogin, $idSites = null)
 	{
 		$roles = Analytica_Access::getListRoles();
@@ -136,9 +164,9 @@ class Analytica_UsersManager extends Analytica_APIable
 					);
 		}
 		
-		// if the role is anonymous then we don't save it as this is the default value
+		// if the role is noaccess then we don't save it as this is the default value
 		// when no role are specified
-		if($role != "anonymous")
+		if($role != "noaccess")
 		{
 			foreach($idSites as $idsite)
 			{
