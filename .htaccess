@@ -1,0 +1,2 @@
+php_flags magic_quotes_gpc off
+php_flags register_globals off
