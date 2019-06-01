@@ -43,6 +43,20 @@ class Analytica_SitesManager extends Analytica_APIable
 		$sites = $db->fetchAll("SELECT * FROM " . Analytica::prefixTable("site"));
 		return $sites;
 	}
+
+	/**
+	 * Returns the website information : name, main_url
+	 *
+	 * @exception if the site ID doesn't exist
+	 * @return array
+	 */
+	static public function getSiteFromId($idSite)
+	{
+		self::checkIdSite($idSite);
+		$db = Zend_Registry::get('db');
+		$site = $db->fetchRow("SELECT * FROM " . Analytica::prefixTable("site") . " WHERE idsite = ?", $idSite);
+		return $site;
+	}
 	
 	/**
 	 * Returns the list of alias URLs registered for the given idSite
@@ -92,7 +106,7 @@ class Analytica_SitesManager extends Analytica_APIable
 	 *
 	 * @return array list of websites ID
 	 */
-	static public function getSitesIdAdministrable()
+	static public function getSitesIdWithAdminAccess()
 	{
 		return array();
 	}
@@ -105,7 +119,7 @@ class Analytica_SitesManager extends Analytica_APIable
 	static public function siteExists($idsite)
 	{
 		$sites = self::getSitesId();
-		return in_array($idsite, $sites);
+		return is_int($idsite) && in_array($idsite, $sites);
 	}
 
 	/**
