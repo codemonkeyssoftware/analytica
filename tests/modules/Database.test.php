@@ -18,7 +18,8 @@ class Test_Database extends UnitTestCase
 		
 		// setup database
 		Analytica::createDatabaseObject();
-		Zend_Registry::get('config')->setTestEnvironment();		
+
+		Zend_Registry::get('config')->setTestEnvironment();
 		
 		Analytica::createDatabase();
 		Analytica::createTables();

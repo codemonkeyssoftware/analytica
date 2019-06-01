@@ -2,12 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="32a0dc26-f083-481b-a46e-f3d533b905c6" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/misc/db-schema.xml" beforeDir="false" afterPath="$PROJECT_DIR$/misc/db-schema.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/Apiable.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/Apiable.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/Config.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/Config.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/ErrorHandler.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/ErrorHandler.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/config.ini" beforeDir="false" afterPath="$PROJECT_DIR$/config/config.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/Analytica.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/Analytica.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/Apiable.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/APIable.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/modules/SitesManager.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/SitesManager.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/UsersManager.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/UsersManager.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/modules/Database.test.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/modules/Database.test.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/modules/SitesManager.test.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/modules/SitesManager.test.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -23,34 +24,7 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/misc/generateDoc.sh">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="55" selection-start-line="2" selection-start-column="55" selection-end-line="2" selection-end-column="55" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/misc/phpdoc-config.ini">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="196">
-              <caret line="41" column="30" selection-start-line="41" selection-start-column="30" selection-end-line="41" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/modules/Access.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="393">
-              <caret line="124" column="48" selection-start-line="124" selection-start-column="48" selection-end-line="124" selection-end-column="48" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/modules/Apiable.php">
+        <entry file="file://$PROJECT_DIR$/modules/APIable.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="150">
               <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
@@ -83,13 +57,31 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/modules/SitesManager.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="299">
-              <caret line="121" column="60" selection-start-line="121" selection-start-column="60" selection-end-line="121" selection-end-column="60" />
+            <state relative-caret-position="275">
+              <caret line="271" column="41" selection-start-line="271" selection-start-column="41" selection-end-line="271" selection-end-column="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tests/modules/Database.test.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="222">
+              <caret line="21" column="59" selection-start-line="21" selection-start-column="59" selection-end-line="21" selection-end-column="59" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/tests/modules/SitesManager.test.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-88">
+              <caret line="31" column="6" selection-start-line="31" selection-start-column="6" selection-end-line="31" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/modules/UsersManager.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="422">
@@ -99,10 +91,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/config.ini">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" column="36" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="45" column="52" lean-forward="true" selection-start-line="45" selection-start-column="52" selection-end-line="45" selection-end-column="52" />
+            <state relative-caret-position="328">
+              <caret line="62" column="28" selection-start-line="62" selection-start-column="28" selection-end-line="62" selection-end-column="28" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
               </folding>
@@ -111,10 +112,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/misc/db-schema.xml">
+        <entry file="file://$PROJECT_DIR$/modules/Analytica.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="35">
-              <caret line="1318" column="115" selection-start-line="1318" selection-start-column="115" selection-end-line="1318" selection-end-column="115" />
+            <state relative-caret-position="264">
+              <caret line="114" column="71" selection-start-line="114" selection-start-column="71" selection-end-line="114" selection-end-column="71" />
             </state>
           </provider>
         </entry>
@@ -136,25 +137,25 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/modules/Log.php" />
-        <option value="$PROJECT_DIR$/modules/Analytica.php" />
         <option value="$PROJECT_DIR$/modules/PublicApi.php" />
         <option value="$PROJECT_DIR$/misc/db-schema-README" />
         <option value="$PROJECT_DIR$/tests/all_tests.php" />
         <option value="$PROJECT_DIR$/tests/config_test.php" />
         <option value="$PROJECT_DIR$/tests/modules/blank.test.php" />
-        <option value="$PROJECT_DIR$/tests/modules/Database.test.php" />
-        <option value="$PROJECT_DIR$/tests/modules/SitesManager.test.php" />
-        <option value="$PROJECT_DIR$/config/config.ini" />
         <option value="$PROJECT_DIR$/misc/generateDoc.sh" />
         <option value="$PROJECT_DIR$/misc/phpdoc-config.ini" />
         <option value="$PROJECT_DIR$/modules/Access.php" />
-        <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/misc/db-schema.xml" />
         <option value="$PROJECT_DIR$/modules/Apiable.php" />
         <option value="$PROJECT_DIR$/modules/Config.php" />
         <option value="$PROJECT_DIR$/modules/ErrorHandler.php" />
-        <option value="$PROJECT_DIR$/modules/SitesManager.php" />
         <option value="$PROJECT_DIR$/modules/UsersManager.php" />
+        <option value="$PROJECT_DIR$/config/config.ini" />
+        <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/modules/Analytica.php" />
+        <option value="$PROJECT_DIR$/modules/SitesManager.php" />
+        <option value="$PROJECT_DIR$/tests/modules/Database.test.php" />
+        <option value="$PROJECT_DIR$/tests/modules/SitesManager.test.php" />
       </list>
     </option>
   </component>
@@ -181,6 +182,22 @@
             <path>
               <item name="analytica" type="b2602c69:ProjectViewProjectNode" />
               <item name="analytica" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="analytica" type="b2602c69:ProjectViewProjectNode" />
+              <item name="analytica" type="462c0819:PsiDirectoryNode" />
+              <item name="modules" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="analytica" type="b2602c69:ProjectViewProjectNode" />
+              <item name="analytica" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="analytica" type="b2602c69:ProjectViewProjectNode" />
+              <item name="analytica" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
               <item name="modules" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -222,12 +239,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1559357505609</updated>
-      <workItem from="1559357508063" duration="4937000" />
+      <workItem from="1559357508063" duration="5333000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4937000" />
+    <option name="totallyTimeSpent" value="5333000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="459" width="1680" height="591" extended-state="0" />
@@ -258,23 +275,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/tests/simpletest/collector.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-58" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/simpletest/compatibility.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="62">
-          <caret line="12" column="10" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/simpletest/cookies.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-58" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tests/simpletest/default_reporter.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-58" />
@@ -485,13 +485,6 @@
         <state relative-caret-position="-58" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/config.ini">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="21" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/misc/generateDoc.sh">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -513,16 +506,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="45" column="52" lean-forward="true" selection-start-line="45" selection-start-column="52" selection-end-line="45" selection-end-column="52" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/misc/db-schema.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="35">
@@ -530,7 +513,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/modules/Apiable.php">
+    <entry file="file://$PROJECT_DIR$/modules/APIable.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
@@ -555,17 +538,55 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/modules/SitesManager.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="121" column="60" selection-start-line="121" selection-start-column="60" selection-end-line="121" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/modules/UsersManager.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="422">
           <caret line="255" column="19" lean-forward="true" selection-start-line="255" selection-start-column="19" selection-end-line="255" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/config.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="36" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="328">
+          <caret line="62" column="28" selection-start-line="62" selection-start-column="28" selection-end-line="62" selection-end-column="28" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/Analytica.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="114" column="71" selection-start-line="114" selection-start-column="71" selection-end-line="114" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/SitesManager.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="271" column="41" selection-start-line="271" selection-start-column="41" selection-end-line="271" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/modules/Database.test.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="21" column="59" selection-start-line="21" selection-start-column="59" selection-end-line="21" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/modules/SitesManager.test.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-88">
+          <caret line="31" column="6" selection-start-line="31" selection-start-column="6" selection-end-line="31" selection-end-column="6" />
         </state>
       </provider>
     </entry>

@@ -60,6 +60,7 @@ Analytica::createConfigObject();
 Analytica::createDatabaseObject();
 Analytica::createLogObject();
 
+Analytica::createDatabase();
 Analytica::createTables();
 
 /*Analytica_UsersManager::deleteUser("login");
